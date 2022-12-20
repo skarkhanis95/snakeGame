@@ -17,3 +17,25 @@ larger audience.
 
 ## Classes
 ### Snake Class
+
+This class controls all the aspects of Snake:
+- Starting Positions
+- Snake Head's attributes
+- Snake Movement (UP/DOWN/LEFT/RIGHT)
+- Snake Extension
+
+### Food Class
+
+This class inherits from Turtle class and has only 1 objective:
+- To generate snake's food which is (Turtle) at random locations across the screen
+- You can control food's attributes like color, shape, etc
+
+### Scoreboard Class
+
+This class inherits from Turtle class 
+and has functions to write score and game over:
+- Score attribute is set -1 to initialize to zero (0) on invoking
+
+As always, special thanks to [@yu_angela]
+
+[@yu_angela]: https://twitter.com/yu_angela
